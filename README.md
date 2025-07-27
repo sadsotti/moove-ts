@@ -40,7 +40,7 @@ Follow these steps to clone the repository and use the project on your computer:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/sadsotti/moove-ts.git](https://github.com/sadsotti/moove-ts.git)
+    git clone https://github.com/sadsotti/moove-ts.git
     ```
 
 2.  **Navigate to the project directory:**
