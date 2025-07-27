@@ -1,69 +1,106 @@
-# 📚 Moove: Sistema di Micromobilità Urbana in TypeScript
+# 📚 Moove: Urban Micromobility System in TypeScript
 
 ---
 
-## 🚀 Panoramica del Progetto
+## 🚀 Project Overview
 
-**Moove** è una simulazione semplificata di un sistema di micromobilità urbana condivisa (bike sharing, scooter sharing, monopattini), sviluppato come parte del modulo **TypeScript** del Master **Full Stack Development e AI** di start2impact.
+**Moove** is a simplified simulation of a shared urban micromobility system (bike sharing, scooter sharing, kickscooters), developed as part of the **TypeScript** module of the **Full Stack Development and AI** Master by start2impact.
 
-Questo progetto dimostra l'applicazione pratica dei principi della **Programmazione Orientata agli Oggetti (OOP)**, l'uso di **interfacce** per definire contratti chiari e la potenza della **tipizzazione forte di TypeScript** per costruire un codice robusto, manutenibile e scalabile.
-
----
-
-## 🔗 Provalo Live!
-
-Puoi testare la simulazione direttamente nel tuo browser ed osservare gli output dalla console di CodePen cliccando sul link qui sotto:
-👉 **[Moove su CodePen](https://codepen.io/sadsotti/pen/gbardBj)** 👈
+This project demonstrates the practical application of **Object-Oriented Programming (OOP)** principles, the use of **interfaces** to define clear contracts, and the power of **TypeScript's strong typing** to build robust, maintainable, and scalable code.
 
 ---
 
-## ✨ Caratteristiche Implementate
+## 🔗 Try it Live!
 
-* **Modellazione Entità:** Rappresentazione chiara di `Mezzo` (veicolo), `Utente` e `Citta` tramite classi e interfacce.
-* **Gestione Stato Veicoli:** Tracciamento dello stato di ogni mezzo (`disponibile`, `in uso`, `manutenzione`).
-* **Logica di Prenotazione:** Gli utenti possono prenotare mezzi disponibili, con gestione degli stati e avvisi per mezzi non prenotabili.
-* **Gestione per Città:** Ogni città può aggiungere e visualizzare lo stato dei mezzi a sua disposizione.
-* **Output:** Messaggi di console che tracciano le operazioni (creazione, assegnazione, prenotazione, cambio stato), fornendo un feedback in tempo reale sulla simulazione.
+You can test the simulation directly in your browser and observe the console output by clicking the link below:
+👉 **[Moove on CodePen](https://codepen.io/sadsotti/pen/gbardBj)** 👈
 
 ---
 
-## 🛠️ Tecnologie Utilizzate
+## ✨ Implemented Features
 
-* **TypeScript:** Linguaggio principale per lo sviluppo, garantisce tipizzazione statica e implementazione avanzata dei concetti OOP.
+* **Entity Modeling:** Clear representation of `Vehicle`, `User`, and `City` through classes and interfaces.
+* **Vehicle Status Management:** Tracking of each vehicle's status (`available`, `in_use`, `maintenance`).
+* **Booking Logic:** Users can book available vehicles, with status management and warnings for non-bookable vehicles.
+* **City Management:** Each city can add and display the status of vehicles at its disposal.
+* **Output:** Console messages track operations (creation, assignment, booking, status change), providing real-time feedback on the simulation.
 
 ---
 
-## 🚀 Come Utilizzare il Progetto Localmente
+## 🛠️ Technologies Used
 
-Segui questi passaggi per clonare il repository ed utilizzare il progetto sul tuo computer:
+* **TypeScript:** Primary language for development, ensures static typing and advanced OOP concepts implementation.
+* **Node.js & npm:** Used for package management and running the TypeScript compilation and execution locally.
 
-1.  **Clona il repository:**
+---
+
+## 🚀 How to Use the Project Locally
+
+Follow these steps to clone the repository and use the project on your computer:
+
+1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/sadsotti/moove-ts.git
+    git clone [https://github.com/sadsotti/moove-ts.git](https://github.com/sadsotti/moove-ts.git)
     ```
 
-2.  **Naviga nella directory del progetto:**
+2.  **Navigate to the project directory:**
     ```bash
     cd moove-ts
     ```
 
-3.  **Utilizza l'estratto ed integralo a piacimento**
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+    This command will read the `package.json` file and install all necessary development dependencies (like TypeScript).
+
+4.  **Verify and Compile the TypeScript code:**
+    ```bash
+    npm run verify # Checks for syntax errors
+    npm run build  # Compiles TypeScript to JavaScript (output in /dist folder)
+    ```
+
+5.  **Run the compiled application:**
+    ```bash
+    npm start
+    ```
+    This will execute the `app.js` file located in the `dist` folder.
 
 ---
 
-## 📂 Struttura del Progetto
+## 📂 Project Structure
 
-Il progetto ha una struttura semplice e pulita per facilitarne l'utilizzo:
+The project has a simple and clean structure to facilitate its use and understanding:
 
-* `app.ts`: Contiene tutto il codice sorgente TypeScript del sistema Moove, incluse interfacce, classi e la logica di test/simulazione.
-* `README.md`: Questo file di descrizione del progetto.
+* `app.ts`: Contains all the TypeScript source code for the Moove system, including interfaces, classes, and the test/simulation logic.
+* `package.json`: Manages project metadata and dependencies. Includes scripts for `verify` (TypeScript linting), `build` (TypeScript compilation), and `start` (running the compiled application).
+* `tsconfig.json`: TypeScript compiler configuration file.
+* `dist/`: (Automatically generated after `npm run build`) This directory contains the compiled JavaScript output files.
+* `README.md`: This project description file.
 
 ---
 
-## 🔗 Link Utili
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions for improvements or new features, please follow these steps:
+
+1.  **Fork the repository.**
+2.  **Create a new branch for your feature or bug fix:**
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3.  **Make your changes and ensure all code is in English.**
+4.  **Run `npm run verify` to check for TypeScript errors.**
+5.  **Commit your changes with a clear and concise message.**
+6.  **Push your branch to your forked repository.**
+7.  **Open a Pull Request to the `development` branch of the original repository.**
+
+---
+
+## 🔗 Useful Links
 
 * [start2impact](https://www.start2impact.it/)
-* [Il Mio LinkedIn](https://www.linkedin.com/in/lorenzo-sottile/)
-* [Il Mio CodePen](https://codepen.io/sadsotti)
+* [My LinkedIn](https://www.linkedin.com/in/lorenzo-sottile/)
+* [My CodePen](https://codepen.io/sadsotti)
 
 ---
