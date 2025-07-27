@@ -8,5 +8,4 @@ npm-debug.log*
 .prettierignore
 .DS_Store # macOS
 Thumbs.db # Windows
-.env
-.env.*
+.env*
