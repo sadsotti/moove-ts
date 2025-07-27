@@ -1,0 +1,11 @@
+/node_modules
+/.pnp
+.pnp.js
+/dist
+npm-debug.log*
+.npm
+.eslintcache
+.prettierignore
+.DS_Store # macOS
+Thumbs.db # Windows
+.env*
