@@ -99,8 +99,8 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ## 🔗 Useful Links
 
-* [start2impact](https://www.start2impact.it/)
-* [My LinkedIn](https://www.linkedin.com/in/lorenzo-sottile/)
-* [My CodePen](https://codepen.io/sadsotti)
+* **My CodePen:** [https://codepen.io/sadsotti](https://codepen.io/sadsotti)
+* **start2impact:** [https://www.start2impact.it/](https://www.start2impact.it/)
+* **My LinkedIn:** [https://www.linkedin.com/in/lorenzo-sottile/](https://www.linkedin.com/in/lorenzo-sottile/)
 
 ---
